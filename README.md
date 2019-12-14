@@ -9,8 +9,8 @@ This repository consist of the four interaction networks in their respective fol
 
 As the files are relatively huge, they are split into multiple text files, separated by commas. After extraction, the files are split using linux command line:  i.e. split -d -l 1500000 trace_net.csv trace_net_  <br> 
 
-Format for hash files: <address>, <hash> <br>
-Format for net files: <from_address_hash>, <to_address_hash>
+Format for hash files: address, hash <br>
+Format for net files: from_address_hash, to_address_hash
 
 Credits:
 https://www.kaggle.com/bigquery/ethereum-blockchain (original dataset)
