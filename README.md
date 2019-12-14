@@ -21,12 +21,12 @@ https://www.kaggle.com/bigquery/ethereum-blockchain (original dataset)
 2. Go to BigQuery and find the data set 'ethereum_blockchain'
 3. Select the table you want and 'Export to GCS'.
 4. Then select the GCS location (the bucket created in step 2). 
-5. If csv is preferred: <bucket>/<folder>/file*.csv (e.g. tmpbucket/blocks/blocks*.csv)
-   The * will help to number the files as exporting the tables will split the data into multiple files. 
+5. If csv is preferred: <bucket>/<folder>/file*.csv (e.g. tmpbucket/blocks/blocks*.csv). <bR>
+   The * will help to number the files as exporting the tables will split the data into multiple files. <br>
    Replace .csv with .txt or .json as per your preference.
-6. Pip install gsutil, open command line and download the files. (Tried with Python 2.7 in Ubuntu)
-   For downloaded entire folder: gsutil -m cp -r gs://bucketname/folder-name local-location
-   For downloaded multiple files: gsutil -m cp -r gs://bucketname/folder-name/filename* local-location
+6. Pip install gsutil, open command line and download the files. (Tried with Python 2.7 in Ubuntu)<br>
+   For downloaded entire folder: gsutil -m cp -r gs://bucketname/folder-name local-location <br>
+   For downloaded multiple files: gsutil -m cp -r gs://bucketname/folder-name/filename* local-location<br>
 
 If gstuil does not work, manual download is possible from the bucket (not recommended).
 
