@@ -29,7 +29,8 @@ https://www.kaggle.com/bigquery/ethereum-blockchain (original dataset)
    For downloaded multiple files: gsutil -m cp -r gs://bucketname/folder-name/filename* local-location<br>
 
 If gstuil does not work, manual download is possible from the bucket (not recommended).<br>
-After downloaded the necessary data you might want to delete the bucket to prevent charges.
+After downloaded the necessary data you might want to delete the bucket to prevent charges.<br>
+Alternative method: https://github.com/blockchain-etl/ethereum-etl <br>
 
 
    
