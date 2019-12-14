@@ -28,7 +28,8 @@ https://www.kaggle.com/bigquery/ethereum-blockchain (original dataset)
    For downloaded entire folder: gsutil -m cp -r gs://bucketname/folder-name local-location <br>
    For downloaded multiple files: gsutil -m cp -r gs://bucketname/folder-name/filename* local-location<br>
 
-If gstuil does not work, manual download is possible from the bucket (not recommended).
+If gstuil does not work, manual download is possible from the bucket (not recommended).<br>
+After downloaded the necessary data you might want to delete the bucket to prevent charges.
 
 
    
