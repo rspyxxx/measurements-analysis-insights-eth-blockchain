@@ -1,4 +1,4 @@
-# Measurements, Analyses and insights on the Entire Ethereum Blockchain
+# Measurements, Analyses and Insights on the Entire Ethereum Blockchain
 ## Data (Four Interaction Network)
 This repository consist of the four interaction networks in their respective folders. Files here are converted and extracted form the original data which can be found from Google Cloud Platform's BigQuery -'ethereum_blockchain'. Original data set extracted will not be found here. Script for hashing the files and extracting the four network from the original data set can also be found in the respective folders.
 
@@ -7,7 +7,7 @@ This repository consist of the four interaction networks in their respective fol
 (3) TransactionNet
 (4) TokenNet
 
-As the files are relatively huge, they are split into multiple text files, separated by commas.
+As the files are relatively huge, they are split into multiple text files, separated by commas. After extraction, the files are split using linux command line:  i.e. split -d -l 1500000 trace_net.csv trace_net_  <br> 
 
 Format for hash files: <address>, <hash>
 Format for net files: <from_address_hash>, <to_address_hash>
